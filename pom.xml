@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ee</groupId>
 	<artifactId>HaupModulka</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	
 	
 	<packaging>pom</packaging>
@@ -121,7 +121,7 @@
 		<connection>scm:git:git@github.com:solnze111/HaupModulka.git</connection>
 		<developerConnection>scm:git:git@github.com:solnze111/HaupModulka.git</developerConnection>
 		<!--<tag>HaupModulka-0.0.1</tag>-->
-	  <tag>HaupModulka-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<!--example superPOM --> <!-- --> <!-- --> <!-- --> <!-- -->
