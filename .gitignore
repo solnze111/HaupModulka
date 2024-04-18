@@ -15,3 +15,50 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/target/
+# Backupfiles from mergetools #
+*.orig
+# Java Class Files #
+*.class
+.classpath
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+# Eclipse #
+/.project
+/.settings
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+bin/**
+# Maven #
+target/
+/.mvn
+/.maven
+/.repository
+.flattened-pom.xml
