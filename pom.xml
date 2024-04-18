@@ -1,18 +1,30 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ee</groupId>
 	<artifactId>HaupModulka</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
-	
-	
+
+
 	<packaging>pom</packaging>
 	<modules>
 		<module>webs</module>
 		<module>aservices</module>
 		<module>database</module>
 	</modules>
-	
-	
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>mynexus</id>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id> mynexus</id>
+			<url>http://localhost:8081/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
+
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
@@ -121,8 +133,8 @@
 		<connection>scm:git:git@github.com:solnze111/HaupModulka.git</connection>
 		<developerConnection>scm:git:git@github.com:solnze111/HaupModulka.git</developerConnection>
 		<!--<tag>HaupModulka-0.0.1</tag>-->
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
 
 	<!--example superPOM --> <!-- --> <!-- --> <!-- --> <!-- -->
 	<build>
@@ -194,5 +206,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
+
 </project>
