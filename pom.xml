@@ -122,7 +122,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:solnze111/HaupModulka.git</connection>
 		<developerConnection>scm:git:git@github.com:solnze111/HaupModulka.git</developerConnection>
-		<!--<tag>MyModules-0.0.1</tag>-->
+		<!--<tag>HaupModulka-0.0.1</tag>-->
 	</scm>
 
 	<!--example superPOM --> <!-- --> <!-- --> <!-- --> <!-- -->
