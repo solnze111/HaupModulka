@@ -4,7 +4,7 @@
 
     <groupId>com.ee</groupId>
     <artifactId>SimpleRelease</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -27,7 +27,8 @@
     <scm>
         <connection>scm:git:git@github.com:solnze111/SimpleRelease.git</connection>
         <developerConnection>scm:git:git@github.com:solnze111/SimpleRelease.git</developerConnection>
-   </scm>
+     <tag>SimpleRelease-0.0.3</tag>
+  </scm>
 
     <dependencies>
         <dependency>
